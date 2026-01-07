@@ -284,3 +284,39 @@ button:disabled {
     border-radius: 5px;
     margin-top: 1rem;
 }
+
+/* Tab Navigation */
+.tab-navigation {
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #4a505a;
+  padding-bottom: 1rem;
+  width: 95%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  color: #ccc;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 0.5rem;
+  transition: color 0.3s, border-bottom-color 0.3s;
+  border-bottom: 3px solid transparent;
+}
+
+.tab-button:hover {
+  color: #61dafb;
+}
+
+.tab-button.active {
+  color: #61dafb;
+  border-bottom: 3px solid #61dafb;
+}
+
+.tab-content {
+  width: 100%;
+}
