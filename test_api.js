@@ -5,7 +5,7 @@ async function testApiCall() {
   try {
     console.log("Attempting to fetch data from TronGrid API with a valid ctoken...");
 
-    const API_KEY = "a4754d8e-ddaa-4322-9a88-80cf84d9b6f2";
+    const API_KEY = "2";
     // Using a valid ctoken from the list you provided
     const ctoken = "TE2RzoSV3wFK99w6J9UnnZ4vLfXYoxvRwP"; // TRX Market
     const minTimestamp = new Date('2023-01-01').getTime();
@@ -16,8 +16,7 @@ async function testApiCall() {
 
     const response = await axios.get(url, {
       headers: {
-        "TRON-PRO-API-KEY": API_KEY,
-        "Origin": "https://app.justlend.org"
+        "TRON-PRO-API-KEY": API_KEY
       },
     });
 
