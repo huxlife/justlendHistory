@@ -285,6 +285,15 @@ button:disabled {
     margin-top: 1rem;
 }
 
+/* Component-specific containers to re-center content */
+.justlend-liquidations-container,
+.energy-liquidations-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
 /* Tab Navigation */
 .tab-navigation {
   margin-bottom: 2rem;
